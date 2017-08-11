@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Rowan Project</title>
+
+<style>
+body {
+	overflow: hidden;
+	margin: 0;
+	font-size: 12px;
+	background-color: #000000;
+	font-family: Nunito;
+}
+h1 {
+	font-size: 48px;
+}
+h2 {
+	font-size: 36px;
+}
+div {
+	box-sizing: border-box;
+	float: left;
+	overflow: hidden;
+}
+.project {
+	position: absolute;
+	transition: transform 3s, opacity 3s, z-index 3s;
+	will-change: transform, opacity, z-index;
+	background-color: #000000;
+	transform: scale(1, 1);
+}
+#project1 {
+	transform-origin: left top;
+}
+#project2 {
+	transform-origin: right top;
+}
+#project3 {
+	transform-origin: left bottom;
+}
+#project4 {
+	transform-origin: right bottom;
+}
+.screen {
+	text-align: center;
+	color: #BBBBBB;
+	font-weight: bold;
+	background-color: #000000;
+}
+#screen2, #screen4, #screen5, #screen6, #screen8 {
+	display: table;
+	table-layout: fixed;
+}
+#screen4 span, #screen5 span, #screen6 span {
+	text-align: left;
+	font-size: 12px;
+	font-weight: normal;
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 5%;
+}
+#screen2 span {
+	transition: color 3s;
+	will-change: color;
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+#transcripts div {
+	position: relative;
+	left: calc(100% + 3px);
+	font-size: 150%;
+	overflow: hidden;
+	display: none;
+	will-change: transform;
+	transform: translateX(0);
+	white-space: nowrap;
+	z-index: 4;
+}
+#s1, #s2, #s3, #s4 {
+	color: #FFFFFF;
+	background-color: #000000;
+	opacity: .6875;
+}
+.vertcentered {
+	display: table-cell;
+	vertical-align: middle;
+}
+.centered {
+	clear: both;
+	text-align: center;
+	width: 100%;
+}
+img {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 2%;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+#remote {
+	width: auto;
+	height: 200px;
+}
+li {
+	position: relative;
+	list-style-type: none;
+	width: 100%;
+	height: 100%;
+	will-change: transform;
+	transform: translateY(0);
+	transition: transform 2s;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+.author, .creditline {
+	position: absolute;
+	z-index: 3;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #000000;
+	opacity: .6875;
+	padding: 2px 3px;
+}
+.author {
+	top: 0px;
+	left: 0px;
+}
+.creditline {
+	bottom: 0px;
+	right: 0px;
+}
+</style>
+
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div id="screen1" class="screen"><div id="project1" class="project"></div></div>
+<div id="screen2" class="screen"></div>
+<div id="screen3" class="screen"><div id="project2" class="project"></div></div>
+<div id="screen4" class="screen">
+<span>
+<em>Materializing China: Objects from Harvard's Collections</em><br /><br />
+Freshman Seminar 70L: Ancient East Asia: Contested Archaeologies of China, Korea, and Japan<br />
+Department of Archaeology<br />
+Professor: Rowan Flad, John E. Hudson Professor of Archaeology in the Department of Anthropology, Harvard University<br /><br />
+
+Teaching Fellow: Zo&euml; Eddy, Ph.D. candidate, Social Anthropology and Archaeology, Harvard University<br /><br />
+
+Seminar Members<br /> 
+1. James Gui<br />
+2. Jaclyn Li<br />
+3. Chad Minato<br />
+4. Eugene Song<br /><br /><br />
+
+What are the origins of the people, cultures, and civilizations of East Asia, and how do we understand those origins?  The varied and complicated histories of people and societies in the modern Nation-States of China, Korea, Japan, and other nearby countries, are rooted in a distant past. Our only evidence from this past comes from the material remains left behind and studied by archaeologists.
+
+</span>            
+</div>
+<div id="screen5" class="screen">
+<span>
+
+Over the course of the Fall 2016 semester, FS70L students explored these materials. Investigating a wide array of objects and contexts, students explored the archaeological controversies that show the stakes of archaeological interpretation to political and social discourse in the modern world. As a class, we investigated fundamental questions in the prehistory and early history of East Asia through the lens of archaeological discoveries. These questions included human origins, the origins of agriculture, the emergence of stratified, complex societies, early processes of globalization across Eurasia, conflicts between centers and peripheries, Indigenous peoples, the origin of Buddhism, and more.  In addition to learning about the major issues in Ancient East Asian archaeology, we also explored controversies that have emerged in recent East Asian archaeological research. We discussed why archaeological topics are subject to controversial interpretation and what is at stake in these disagreements.<br /><br />
+
+Throughout the course, we examined how ancient cultural material continues to significantly impact the modern world. We similarly looked at the types of debates that occur over the question "who owns the past?" As a capstone project to classroom conversations and research, we developed this exhibit. We present four objects, from Peabody Museum and Harvard Art Museums collections, that demonstrate different parts of China's ancient and historical past. All of these objects can be understood multivalently. We invite visitors to consider how these artifacts function not only as physical representations of past lives, but also as material indeces of dynamic and complicated histories.
+
+</span>
+</div>
+<div id="screen6" class="screen">
+<span>
+
+<div class="centered">
+<img src="remote.jpg" id="remote" />
+</div>
+<br /><br />
+To listen to the brief discussions of these objects and their histories, locate the remote pictured above. Each of the four corner buttons corresponds to one of the four projects.
+</span>
+</div>
+<div id="screen7" class="screen"><div id="project3" class="project"></div></div>
+<div id="screen8" class="screen"></div>
+<div id="screen9" class="screen"><div id="project4" class="project"></div></div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+var width = 0;
+var height = 0;
+var slideActive = false;
+var playing = false;
+var canTransition = false;
+var activeProject = 0;
+var slides = [
+	[null, 0, 0, 0, 0],
+	[
+		"content/A1.jpg", 
+		"content/A2.jpg"
+	],
+	[
+		"content/B1.jpg",
+		"content/B2.jpg"
+	], 
+	[
+		"content/C1.jpg", 
+		"content/C2.jpg"
+
+	], 
+	[
+		"content/D1.jpg"
+	]
+];
+var tracks = [
+	["content/A.wav"],
+	["content/B.m4a"],
+	["content/C.wav"],
+	["content/D.m4a"]
+];
+var timings = [
+	[29000, 67000],
+	[29000, 58000],
+	[18000, 43000],
+	[48000],
+];
+var labels = [
+	["Stone Projectile Point", "James Gui"],
+	["Brass Opium Pipe with Attached Opium Box", "Jaclyn Li"],
+	["Ceremonial Shafted Jade Axe with Fragmentary Blade, Shang Dynasty", "Chad Minato"],
+	["Ceramic <em>Ding</em>", "Eugene Song"]
+];
+var credits = [
+	["<em>Stone Projective Point</em> Gift of Elizabeth J. Perry &copy; President and Fellows of Harvard College, Peabody Museum of Archaeology and Ethnology, 2003.19.45 (digital file# 99310222).", 'Map of the Gobi Desert, by Kmusser via Wikimedia Commons, "Gobi Desert Map," 5 August 2010.'],
+	["<em>Opium Poppy (</em>Papaver somniferum<em>) in Natural State</em> Magnus Manske via Wikimedia Commons, \"Papaver somniferum 'Opium poppy' (Papaveraceae) seedpod\" Cambridge University Botanic Gardens, 10 June 2010.", "<em>Brass Opium Pipe with Attached Opium Box</em> &copy; President and Fellows of Harvard College, Peabody Museum of Archaeology and Ethnology, 38-12-60/3169 (digital file# 99310220)."],
+	["<em>Ceremonial Shafted Jade Axe with Fragmentary Blade</em>, 16th-11th century BCE, Harvard Art Museums/Arthur Sackler Museum, Bequest of Grenville L. Winthrop, 1943.50.115.", "<em>Ceremonial Shafted Jade Axe with Fragmentary Blade</em>, 16th-11th century BCE, Harvard Art Museums/Arthur Sackler Museum, Bequest of Grenville L. Winthrop, 1943.50.115"],
+	["<em>Ceramic Ding</em> Gift of Elizabeth J. Perry &copy; President and Fellows of Harvard College, Peabody Museum of Archaeology and Ethnology, 2003.19.31 (digital file# 99310218)."]
+];
+var transcripts = [];
+transcripts[0] = 'This arrowhead point appears to be from the Southeast Gobi Desert region. Its coloration and texture suggest that it was made from silicified volcanic ash, typical material for stone tools in the area north of the Yin Mountains. Furthermore, the roughness of its edges and the presence of "hinge fractures" (imperfections that leave socket-like impressions on the edges) suggest an early date for its manufacture, possibly as early as the Upper Paleolithic, probably after 22,000 years ago, but possibly as late as the Late Neolithic (c. 2000 BCE). Throughout the Paleolithic and Neolithic periods, early modern humans used stone tools, like the arrowhead, for various subsistence activities. From 6000 BCE to 1000 BCE, this area experienced a shift in land use. Humans became tethered to specific foraging areas, and ceased hunting across expansive distances. In these bounded areas, arrowheads, adzes, axes, and grinding stones became ubiquitous. This ubiquity suggests that these tools were important for expanding the diversity of humans\' foraging activity (aka "broad-spectrum foraging").';
+transcripts[1] = "This particular Chinese brass opium pipe dates from between the late 1800s to early 1900s. This object consists of not only the pipe itself, but also a lidded container base, and an incise, bent stem with hanging tassel. The materials that make up this pipe include brass, silk cord, and metal thread. Various features of this object serve as examples of the artist's aesthetic personalization. The tassel is decorative, and additional ornamental items can be affixed to the clip attached to the tassel. Additionally, the detailed engravings on the box feature the opium poppy&mdash;a visual reference to the drug used to make opium.";
+transcripts[2] = "Jade production traditions began in China in the middle Neolithic Period, around 4000 BCE. The techniques used to create jade artifacts were precise and required immense patience and focus. These traditions continued for thousands of years and designs became more intricate as jade carving technology improved. Ancient Chinese jade artifacts found in archaeological contexts often reflect wealth and social status. Such artifacts are often discovered in the burial tombs and chambers of wealthy and prominent individuals. This particular blade is a variation of the <em>zhang</em>, one of the six Chinese ritual artifacts used in Shang ceremonies. Found in relation to the Shang Dynasty (1500&ndash;1050 BCE), this blade is an object of duality: as a functional object, it indicates the material life of the individual, and serves as an object that indicates the dead person's wealth and social prestige; however, as a ritual object connected to death and burial, it also serves as a symbolic representation of that individual's death.";
+transcripts[3] = 'This tripod vessel is known as a <em>ding</em>, and it was probably made sometime during the Shang dynasty (c. 1500&ndash;1250 BCE) of China. Based on information from Shang bone inscriptions and burials, archaeologists infer that ceramic <em>ding</em> such as the one shown were usually used for domestic purposes such as cooking, while those made of bronze were used for ritual purposes like meat offerings to ancestors. These bronze <em>ding</em> were very important in the Chinese social system, as the type and size of <em>ding</em> a family could own were based on social class. These vessels were so symbolic of power and authority that there was once a myth about the "Nine <em>Ding</em>" whose bearer had the divine right to rule all of China.';
+var currentlyPlaying = [];
+setup();
+
+function setup() {
+	sizeScreens();
+
+	$("#screen8").append("<span class='vertcentered' id='transcripts'></span>");
+
+	for (var i = 1; i < slides.length; i++) {
+		$("#transcripts").append("<div id='s" + i + "'>" + transcripts[i - 1] + "</div>");
+		$("#project" + i).append("<span class='author'>Commentary by " + labels[i - 1][1] + "</span>");
+		for (var j = 0; j < slides[i].length; j++) {
+			$("#project" + i).append("<li><span class='creditline'>" + credits[i - 1][j] + "</span><img src='" + slides[i][j] + "' /><audio id='track" + i + "'><source src='" + tracks[i - 1][0] + "' type='audio/mpeg'></audio></li>");
+		}
+	}
+
+	$("#track4").volume = .3;
+
+	dimLabel();
+
+	document.addEventListener('keydown', function(e) {
+		switch(e.key) {
+			case 'm':
+				toggleSlides(1);
+				break;
+			case 'b':
+				toggleSlides(2);
+				break;
+			case 'u':
+				toggleSlides(3);
+				break;
+			case 't':
+				toggleSlides(4);
+				break;
+			default:
+		}
+	});
+
+	setInterval(randomSlide, 8000);
+}
+
+window.onresize = function(event){
+	sizeScreens();
+};
+
+function randomSlide() {
+	if (!playing) {
+		advanceSlides(Math.floor(Math.random()*4) + 1);
+	}
+}
+
+function firstSlide(project) {
+	$("#project" + project + " li").css("transform", "translateY(0px)");
+	slides[0][project] = 0;
+}
+
+function advanceSlides(project) {
+	if ((slides[0][project] + 1) >= slides[project].length) {
+		firstSlide(project);
+	} else {
+		slides[0][project]++;
+		$("#project" + project + " li").css("transform", "translateY(" + -100*slides[0][project] + "%)");
+	}
+}
+
+function undim() {
+	for (var i = 1; i <= 4; i++) {
+		$("#project" + i).css({
+			"opacity": 1
+			});
+	}
+}
+
+function openSlides(project) {
+	slideActive = true;
+	$("#project" + project).css({
+		"transform": "scale(3, 3)",
+		"z-index": 3
+	});
+}
+	
+
+function setLabel(project) {
+	$("#screen2").css("color", "#BBBBBB");
+	document.getElementById("screen2").innerHTML = "<span><h1>" + labels[project - 1][0] + "</h1><h2>" + labels[project - 1][1] + "</h2></span>";
+	$("#s" + project).css("display", "block");
+	$("#s" + project).css("transition", "transform linear " + timings[project - 1].slice(-1)[0]/1000 + "s");
+	setTimeout(function() {$("#s" + project).css("transform", "translateX(-" + ($("#s" + project).width() + 20 + (width/3)) + "px)");
+							canTransition = true;}, 3000);
+}
+
+function dimLabel() {
+	for (var i = 1; i <= 4; i++) {
+		$("#s" + i).css("transition", "transform linear 0s");
+		$("#s" + i).css("display", "none");
+		$("#s" + i).css("transform", "translateX(0px)");
+	}
+	$("#screen2").css("color", "#222222");
+}
+
+function playTrack1() {
+	document.getElementById("track1").currentTime = 0;
+	document.getElementById("track1").play();
+}
+
+function playTrack2() {
+	document.getElementById("track2").currentTime = 0;
+	document.getElementById("track2").play();
+}
+
+function playTrack3() {
+	document.getElementById("track3").currentTime = 0;
+	document.getElementById("track3").play();
+}
+
+function playTrack4() {
+	document.getElementById("track4").currentTime = 0;
+	document.getElementById("track4").play();
+}
+
+function slidesStopped() {
+		document.getElementById("track" + activeProject).pause();
+		playing = false;
+		dimLabel();
+		undim();
+		resetSlides();
+		firstSlide(activeProject);
+		activeProject = 0;
+}
+
+function playSlides(project) {
+	setLabel(project);	
+
+	activeProject = project;
+
+	openSlides(project);
+
+	document.getElementById("track" + project).onended = slidesStopped;
+
+	switch (project) {
+		case 1:
+			setTimeout(playTrack1, 3000);
+			break;
+		case 2:
+			setTimeout(playTrack2, 3000);
+			break;
+		case 3:
+			setTimeout(playTrack3, 3000);
+			break;
+		case 4:
+			setTimeout(playTrack4, 3000);
+	}
+
+	for (var i = 1; i <= 4; i++) {
+		if (project != i) {
+			$("#project" + i).css({
+				"opacity": .2
+				});
+		}
+	}
+
+	firstSlide(project);
+	$.each(slides[project], function (i, slide) {
+		timing = timings[project - 1][i];
+		setTimeout(function() {advanceSlides(project)}, timing + 3000);
+	});
+}
+
+function toggleSlides(project) {
+	if (!playing) {
+		canTransition = false;
+		playing = true;
+		playSlides(project);
+	} else if (project == activeProject) {
+		if (slideActive) {
+			resetSlides();
+		} else {
+			openSlides(project);
+		}
+	} else if (canTransition) {
+		canTransition = false;
+		slidesStopped();
+		playing = true;
+		setTimeout(playSlides.bind(null, project), 3000);
+	}
+}
+
+function resetSlides() {
+	for (var i = 1; i <= 4; i++) {
+		$("#project" + i).css({
+			"transform": "scale(1, 1)",
+			"z-index": 0
+		});
+	}
+
+	slideActive = false;
+}
+
+function sizeScreens() {
+	width = $(window).width();
+	height = $(window).height();
+
+	resetSlides();
+
+	$(".screen").css("width", width/3);
+	$(".screen").css("height", height/3);
+
+	$(".project").css("width", width/3);
+	$(".project").css("height", height/3);
+}
+
+</script>
+
+</body>
+
+</html> 
